@@ -7,10 +7,10 @@ const TodoListTemplate = ({form, children}) => {
 			<div className="title">
 				TODO LIST
 			</div>
-			<div classNmae="form-wrapper">
+			<div className="form-wrapper">
 				{form}
 			</div>
-			<div classNmae="todos-wrapper">
+			<div className="todos-wrapper">
 				{children}
 			</div>
 		</main>
